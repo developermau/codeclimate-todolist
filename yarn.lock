@@ -616,6 +616,11 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+clone@~2.1.0:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/clone/-/clone-2.1.2.tgz"
+  integrity sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==
+
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz"
@@ -658,6 +663,14 @@ cross-spawn@^7.0.2:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
+
+csslint@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/csslint/-/csslint-1.0.5.tgz"
+  integrity sha512-GXGpPqGIuEBKesM4bt2IKFrzDKpemh9wVZRHVuculUErar554QrXHOonhgkBOP3uiZzbAETz0N2A4oWlIoxPuw==
+  dependencies:
+    clone "~2.1.0"
+    parserlib "~1.1.1"
 
 csstype@^3.0.2:
   version "3.1.1"
@@ -1590,6 +1603,11 @@ parent-module@^1.0.0:
   integrity sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==
   dependencies:
     callsites "^3.0.0"
+
+parserlib@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/parserlib/-/parserlib-1.1.1.tgz"
+  integrity sha512-e1HbF3+7ASJ/uOZirg5/8ZfPljTh100auNterbHB8TUs5egciuWQ2eX/2al8ko0RdV9Xh/5jDei3jqJAmbTDcg==
 
 path-exists@^4.0.0:
   version "4.0.0"
