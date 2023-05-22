@@ -11,7 +11,6 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "csslint": "^1.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -21,6 +20,8 @@
     "@typescript-eslint/eslint-plugin": "^5.59.7",
     "@typescript-eslint/parser": "^5.59.7",
     "@vitejs/plugin-react": "^4.0.0",
+    "csslint": "^1.0.5",
+    "eslint": "^8.41.0",
     "eslint-plugin-react": "^7.32.2",
     "typescript": "^5.0.4",
     "vite": "^4.3.8"
